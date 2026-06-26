@@ -47,7 +47,7 @@ resource "aws_s3_bucket" "this" {
 
   region = var.region
 
-  bucket           = var.bucket
+  bucket           = var.buckett
   bucket_prefix    = var.bucket_prefix
   bucket_namespace = var.bucket_namespace
 
