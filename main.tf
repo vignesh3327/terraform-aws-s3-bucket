@@ -61,7 +61,7 @@ resource "aws_s3_directory_bucket" "this" {
 
   region = var.region
 
-  bucket          = "${var.bucket}--${var.availability_zone_id}--x-s3"
+  bucket          = "${var.buckett}--${var.availability_zone_id}--x-s3"
   data_redundancy = var.data_redundancy
   force_destroy   = var.force_destroy
   type            = var.type
